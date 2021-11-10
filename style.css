@@ -1,0 +1,168 @@
+html {
+  font-size: 62.5%;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lato", "Lora", "Playfair Display", sans-serif;
+  color: #222831;
+  line-height: 1.4;
+  font-weight: 400;
+  padding-bottom: 20rem;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.header {
+  padding-top: 6.6rem;
+  padding-bottom: 5rem;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  font-family: "Playfair Display";
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #10375C;
+}
+.header__menu-list {
+  display: flex;
+  align-items: center;
+}
+.header__menu-item {
+  margin-left: 4rem;
+}
+.header__menu-item:last-child {
+  margin-left: 10rem;
+}
+.header__menu-link {
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #222831;
+}
+
+.btn {
+  font-family: "Lato";
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1.25rem 2.5rem;
+  cursor: pointer;
+}
+.btn--link {
+  color: #FF5722;
+}
+.btn--secondary {
+  color: white;
+  background-color: #FF5722;
+}
+
+.introduction__label {
+  font-size: 2rem;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+.introduction__label:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 125px;
+  width: 7rem;
+  height: 2px;
+  background-color: #222831;
+}
+.introduction__container {
+  display: flex;
+  justify-content: space-between;
+}
+.introduction__title {
+  font-family: "Lora";
+  font-size: 5.2rem;
+  font-weight: 700;
+  flex-grow: 1;
+  color: #10375C;
+  margin-right: 6rem;
+}
+.introduction__title--red {
+  color: #F50000;
+}
+.introduction__desc {
+  font-size: 2rem;
+  font-weight: 500;
+  max-width: 38rem;
+  color: #6A6A6A;
+}
+
+.find-space {
+  margin-top: 2rem;
+}
+.find-space__form {
+  max-width: 44.5rem;
+  background-color: #10375C;
+  padding: 4.2rem 4rem 3rem 4rem;
+}
+.find-space__title {
+  font-family: "Lora";
+  color: white;
+  font-size: 3.4rem;
+  font-weight: 700;
+  margin-bottom: 2.7rem;
+  line-height: 4.3rem;
+}
+.find-space__select {
+  display: block;
+  width: 100%;
+  margin-bottom: 1.7rem;
+  background-color: #0D2C4A;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0.8rem 1.6rem;
+}
+.find-space__select label {
+  color: #fff;
+  opacity: 0.35;
+}
+.find-space__select select {
+  display: block;
+  background: transparent;
+  color: white;
+  border: 0;
+  width: 100%;
+  font-size: 16px;
+  padding: 8px 0px;
+}
+.find-space__button {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */
